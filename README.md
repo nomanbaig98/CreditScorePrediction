@@ -1,4 +1,4 @@
-# Credit Score Prediction DSO17/2024-25 MUHAMMAD NOMAN BAIG
+# Credit Score Prediction DS017/2024-25 MUHAMMAD NOMAN BAIG
 
 ## Overview
 
