@@ -15,8 +15,8 @@ warnings.filterwarnings("ignore", category=ConvergenceWarning, module="sklearn")
 
 st.set_page_config(page_title='Credit Classification', layout='wide',initial_sidebar_state='auto', menu_items={
                         'Get Help': None,
-                        'Report a bug': 'https://github.com/bainskarman/projects/issues',
-                        'About': '''Enter the following information to get your credit score for previous 12 months or select a profile from the given options. This is a mock-up intended for information only, if you wish to learn more about the model behind this please go to the GitHub [Credit Analysis](github.com/bainskarman/projects/Credit_Classification_End_to_End)''' })
+                        'Report a bug': 'https://github.com/nomanbaig98/Credit_Classification_End_to_End',
+                        'About': '''Enter the following information to get your credit score for previous 12 months or select a profile from the given options. This is a mock-up intended for information only, if you wish to learn more about the model behind this please go to the GitHub [Credit Analysis](https://github.com/nomanbaig98/Credit_Classification_End_to_End)''' })
 current_path = os.getcwd()
 script_dir = os.path.dirname(os.path.abspath(__file__))
 path = os.path.join(script_dir, 'final_pipeline.pkl.gz')
