@@ -15,7 +15,7 @@ warnings.filterwarnings("ignore", category=ConvergenceWarning, module="sklearn")
 
 st.set_page_config(page_title='Credit Classification', layout='wide',initial_sidebar_state='auto', menu_items={
                         'Get Help': None,
-                        'Report a bug': 'Fork then Create a branch and Submit a pull request',
+                        'Report a bug': None,
                         'About': '''Enter the following information to get your credit score for previous 12 months or select a profile from the given options. This is a mock-up intended for information only, if you wish to learn more about the model behind this please go to the GitHub [Credit Analysis](https://github.com/nomanbaig98/CreditScorePrediction)''' })
 current_path = os.getcwd()
 path = os.path.join(current_path, 'CreditScorePrediction/Apps/final_pipeline.pkl.gz')
