@@ -18,8 +18,8 @@ st.set_page_config(page_title='Credit Classification', layout='wide',initial_sid
                         'Report a bug': 'https://github.com/bainskarman/projects/issues',
                         'About': '''Enter the following information to get your credit score for previous 12 months or select a profile from the given options. This is a mock-up intended for information only, if you wish to learn more about the model behind this please go to the GitHub [Credit Analysis](github.com/bainskarman/projects/Credit_Classification_End_to_End)''' })
 current_path = os.getcwd()
-path = os.path.join(current_path, 'Credit_Classification_End_to_End/Apps/final_pipeline.pkl.gz')
-df_path = os.path.join(current_path, 'Credit_Classification_End_to_End/Apps/cleaned.csv')
+path = os.path.join(current_path, 'final_pipeline.pkl.gz')
+df_path = os.path.join(current_path, 'cleaned.csv')
 data = pd.read_csv(df_path)
 with gzip.open(path, 'rb') as file:
     model = pickle.load(file)
